@@ -2,12 +2,19 @@
 .header-cont0{
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 0 50px;
   align-items: center;
+  border-bottom: solid 1px rgb(226, 226, 226);
 }
 
 .header-cont0 p {
   font-size: 26px;
+}
+
+.header-cont1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .stop{
