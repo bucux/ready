@@ -26,7 +26,7 @@ function App() {
           <Switch bool={switch2} setBool={setSwitch2}/>
           <Switch bool={switch3} setBool={setSwitch3}/>
         </div>
-        <button>Ready</button>
+        <button className='ready' style={{backgroundColor: switch1 && switch2 && switch3 ? 'green' : 'red'}}>{`${switch1 && switch2 && switch3 ? 'GO !' : 'NO WAY !'}`}</button>
       </div>
       <Footer name={'Ving'}/>
     </div>
